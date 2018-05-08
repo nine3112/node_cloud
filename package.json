@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"node server.js",
+    "deploy": "gcloud app deloy",
     "dev": "nodemon server.js"
   },
   "author": "",
